@@ -1,0 +1,5 @@
+#! /usr/bin/env node
+
+const MiniWebpack = require('../dist/mini-webpack').default
+
+new MiniWebpack().run();

@@ -1,0 +1,19 @@
+{
+  "name": "webpack-practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "mini-webpack --config webpack.config.js"
+  },
+  "author": "qi.futao",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.28.4",
+    "webpack-cli": "3.3.0"
+  },
+  "dependencies": {
+    "@babel/traverse": "^7.17.3"
+  }
+}
